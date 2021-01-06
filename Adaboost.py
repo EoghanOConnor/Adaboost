@@ -269,7 +269,6 @@ plt.title('Contour plot of AdaBoost classifier')
 # Plot line where contour that fits activation levels equals zero
 plt.contour(x, y, z, levels=[0], colors=["black"])
 # Fill regions either side of plotted contour line
-plt.title('3D representaion of weak Classifiers')
 plt.contourf(x, y, z, levels=[-1e5, 0, 1e5], colors=["skyblue","lightsalmon"])
 plt.scatter(data_test.T[0], data_test.T[1], c=data_test.T[2], cmap='bwr', marker = '1')
 plt.xlabel("x axis")
@@ -280,6 +279,7 @@ plt.axis('equal')
 #Plotting a 3D representaion of the of the adaboost decision boundary
 plt.figure(figsize = (10,10))
 ax = plt.axes(projection='3d')
+plt.title('3D represenation of weak Classifiers')
 ax.contour3D(x,y,z,200)
 ax.contour(x,y,z,levels=[-1e5,0,1e5],colors=["white","green","red"], linestyles = ['dashed', 'solid', 'dashed'])
 ax.scatter3D(data_test.T[0], data_test.T[1], c=data_test.T[2], cmap='bwr')
