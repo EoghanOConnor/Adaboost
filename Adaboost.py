@@ -5,7 +5,7 @@
 # Author :     Eoghan O'Connor
 #
 #
-# File Name:    Project 4 , AdaBoost Classifier using weak linear classifiers
+# File Name:    AdaBoost Classifier using weak linear classifiers
 #
 # Description:  A weak linear classifier is created.
 #				This is implemented by creating an orientation vector
