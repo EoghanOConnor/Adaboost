@@ -1,6 +1,6 @@
 # Adaboost
 
-Description:This uses a weak classifier of astraight line to classifier the data. This straight line is moved to classify the datasets again.
+Description: This is a meta-algorithm that uses a weak classifier of a straight line to classifier the data. This straight line is moved to classify the datasets again.
 Each of straight lines are rated by their error. The higher the error the less weight the weak classifier is given.
 
 These weak classifiers train the Adaboost to give a correct seperation line of the 2 different datasets.
