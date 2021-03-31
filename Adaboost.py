@@ -2,8 +2,7 @@
 # coding: utf-8
 #
 #
-# Authors :     Eoghan O'Connor Luke Vickery
-# Student I.Ds: 16110625        16110501
+# Author :     Eoghan O'Connor
 #
 #
 # File Name:    Project 4 , AdaBoost Classifier using weak linear classifiers
